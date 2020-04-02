@@ -1,13 +1,22 @@
-import React from 'react';
-
+import React, { Component } from 'react'
 import './App.css';
+import NavBar from './components/NavBar';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>The Guardian</h1>
-    </div>
-  );
+
+export default class App extends Component {
+  constructor(props){
+    super(props);
+
+    this.state= {
+      isLoading: true,
+      data: [],
+    }
+  }
+  render() {
+    return (
+      <div>
+        <NavBar />
+      </div>
+    )
+  }
 }
-
-export default App;
