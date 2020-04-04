@@ -1,4 +1,5 @@
 import React from 'react'
+import SearchIcon from './SearchIcon'
 
 function NavBar(){
     return(
@@ -6,7 +7,7 @@ function NavBar(){
             <ul>
                 <li>Search Jobs | </li>
                 <li> Sign In | </li>
-                <li> Search</li>
+                <li> <SearchIcon />  Search </li>
             </ul>
         </nav>
 
