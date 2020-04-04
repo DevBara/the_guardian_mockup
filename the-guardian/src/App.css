@@ -87,3 +87,9 @@ nav > ul{
 nav > * {
   z-index: 3;
 }
+
+main{
+  border: solid red 1px;
+  text-align: center;
+
+}
