@@ -24,7 +24,31 @@
 
   --section-opinion-dark: #bd5318;
   --section-opinion-main: #e05e00;
-  --section-opinion-bright: #ff7f0f
+  --section-opinion-bright: #ff7f0f;
+  --section-opinion-pastel: #f9b376;
+  --section--opinion-faded: #fef9f5;
+
+  --section-sport-dark: #005689;
+  --section-sport-main: #0084c6;
+  --section-sport-bright: #00b2ff;
+  --section-sport-pastel: #90dcff;
+  --section--sport-faded: #f1f8fc;
+
+  --section-culture-dark: #6b5840;
+  --section-culture-main: #a1845c;
+  --section-culture-bright: #eacca0;
+  --section-culture-pastel: #e7d4b9;
+  --section--culture-faded: #fbf6ef;
+
+  --section-lifestyle-dark: #7d0068;
+  --section-lifestyle-main: #bb3b80;
+  --section-lifestyle-bright: #ffabdb;
+  --section-lifestyle-pastel: #fec8d3;
+  --section--lifestyle-faded: #feeef7;
+
+
+
+
 
 
 
@@ -57,8 +81,8 @@
 }
 
 
-.the-guardian-logo{
-  height: 60%
+.logo{
+  height: 45%;
 }
 
 .App{
