@@ -1,38 +1,71 @@
-.App {
+:root{
+  --brand-dark: #041f4a;
+  --brand-main: #052962;
+  --brand-pastel: #506991;
+  --highlight-main: #ffe500;
+  --highlight-dark: #ffbb50;
+  --neutral-brightness-7: #121212;
+  --neutral-brightness-20: #333333;
+  --neutral-brightness-46: #767676;
+  --neutral-brightness-60: #999999;
+  --neutral-brightness-86: #dcdcdc;
+  --neutral-brightness-93: #ededed;
+  --neutral-brightness-97: #f6f6f6;
+  --other-labs-dark: #4b8878;
+  --other-labs-main: #69d1ca;
+  --other-green-dark: #236925;
+  --other-green-main: #3db540;
+
+  --section-news-dark: #ab0613;
+  --section-news-main: #c70000;
+  --section-news-bright: #ff4e36;
+  --section-news-pastel: #ffbac8;
+  --section-news-faded: #fff4f2;
+
+  --section-opinion-dark: #bd5318;
+  --section-opinion-main: #e05e00;
+  --section-opinion-bright: #ff7f0f
+
+
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--brand-main);
+  height: 20vh;
+  padding: 0px 10% 0px 10%;
+  
+}
+
+.support-banner{
+  width: 40%;
+  padding: 0px;
+  border: solid red 1px;
+}
+
+.support-banner > h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.support-banner > h2 {
+  font-size: 80%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.the-guardian-logo{
+  height: 60%
+}
+
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  border: solid red 1px;
+  background-color: var(---bran)
 }
