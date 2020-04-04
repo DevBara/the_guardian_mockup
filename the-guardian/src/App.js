@@ -1,22 +1,18 @@
 import React, { Component } from 'react'
 import './App.css';
-import NavBar from './components/NavBar';
+import Header from './components/Header'
 
 
-export default class App extends Component {
-  constructor(props){
-    super(props);
-
-    this.state= {
-      isLoading: true,
-      data: [],
-    }
-  }
+class App extends React.Component {
+  
   render() {
     return (
       <div>
-        <NavBar />
+        <Header />
       </div>
     )
   }
 }
+
+
+export default App
