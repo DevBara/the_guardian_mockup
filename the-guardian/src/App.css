@@ -67,5 +67,23 @@
 
 .header{
   border: solid red 1px;
-  background-color: var(---bran)
+  background-color: var(--brand-main)
+}
+
+nav{
+  z-index: 1;
+  border: solid orange 1px;
+}
+
+nav > ul{
+  border: red solid 1px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > * {
+  z-index: 3;
 }
