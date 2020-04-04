@@ -46,12 +46,10 @@
   --section-lifestyle-pastel: #fec8d3;
   --section--lifestyle-faded: #feeef7;
 
+}
 
-
-
-
-
-
+.App{
+  text-align: center;
 }
 
 .header{
@@ -60,13 +58,14 @@
   background-color: var(--brand-main);
   height: 20vh;
   padding: 0px 10% 0px 10%;
+  border: solid white 1px;
   
 }
 
 .support-banner{
   width: 40%;
   padding: 0px;
-  border: solid red 1px;
+ 
 }
 
 .support-banner > h1 {
@@ -80,40 +79,41 @@
   padding: 0px;
 }
 
-
-.logo{
-  height: 45%;
+.support{
+  color:yellow;
+  font-weight: 900;
+  font-size: 35px;
 }
 
-.App{
-  text-align: center;
+.gift{
+  color:white;
+  font-size: 15px;
+  bottom:5px;
 }
+
 
 .header{
-  border: solid red 1px;
   background-color: var(--brand-main)
 }
 
 nav{
   z-index: 1;
-  border: solid orange 1px;
+ 
 }
 
 nav > ul{
-  border: red solid 1px;
   list-style: none;
-  margin-left: 0;
   padding-left: 0;
   display: flex;
   justify-content: space-between;
 }
+
+
 
 nav > * {
   z-index: 3;
 }
 
 main{
-  border: solid red 1px;
   text-align: center;
-
 }
