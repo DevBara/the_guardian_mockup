@@ -1,7 +1,8 @@
 import React from 'react'
+import axios from 'axios'
 
 
-// const API_key = insert api key- numbers only
+
 class Main extends React.Component{
     constructor(props){
         super(props);
@@ -15,20 +16,13 @@ class Main extends React.Component{
 
     async getSomething(){
        try {
-           const res = await axios.get(api url=${API_KEY})
-          console.log(res.data.response.results.forEach(obj =>{
-        console.log(obj.id);
-        if(obj.id === 'sport'){
-            this.setState({'sport'})
+           const res = await axios.get('https://content.guardianapis.com/search?api-key=0e798de9-f270-4f0d-ba87-4faa3de3209a')
+          console.log(res.data.response.results)
+       } catch (e){
+         console.error(e);
         }
-    }));
-                
-
-    //     }catch (e){
-    //         console.error(e);
-    //     }
       
-    // }
+    }
 
     render(){
         return(
