@@ -5,7 +5,7 @@ function NavBar(){
     return(
         <nav>
             <ul>
-                <li>Search Jobs | </li>
+                <li> Search Jobs | </li>
                 <li> Sign In | </li>
                 <li> <SearchIcon />  Search </li>
             </ul>
