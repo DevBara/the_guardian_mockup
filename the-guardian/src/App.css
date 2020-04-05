@@ -117,3 +117,28 @@ nav > * {
 main{
   text-align: center;
 }
+
+.pages{
+  background-color: var(--brand-main);
+  margin: 0px;
+  padding: 0px;
+  border: solid white 1px;
+}
+
+li{
+  color: white;
+}
+
+.pageText{
+  color: white;
+  font-size: 25px;
+}
+
+.footer{
+    background-color: var(--brand-main);
+    text-align: center;
+    padding: 110px;
+    bottom: 0px;
+    height: 40px;
+  
+}

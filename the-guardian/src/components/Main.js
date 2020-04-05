@@ -27,7 +27,7 @@ class Main extends React.Component{
     render(){
         return(
             <main className="main">
-                <h1>Something</h1>
+                <h1>API Shows Here</h1>
             </main>
         )
     }
