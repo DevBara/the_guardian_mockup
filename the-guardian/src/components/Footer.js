@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 
 class Footer extends React.Component {
@@ -8,6 +9,7 @@ class Footer extends React.Component {
             <header className="footer">
                 <div>
                    <p>I am a footer</p>
+                   <NavBar />
                    
                 </div>
               
