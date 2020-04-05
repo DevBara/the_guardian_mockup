@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './NavBar'
 
 
+
 class Footer extends React.Component {
     render(){
         return (
@@ -13,7 +14,6 @@ class Footer extends React.Component {
                    
                 </div>
               
-               
             </header>
            
                 
