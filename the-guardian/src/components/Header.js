@@ -9,10 +9,12 @@ class Header extends React.Component {
             <header className="header">
                 <div>
                     <h1 className="support">Support the Guardian</h1>
-                    <h2 className="gift">Available for everyone, funded by readers</h2>
-                    <button>Contribute</button>
-                    
+                    <h2 className="gift">Available for everyone, funded by readers</h2>       
                 </div>
+                <div>
+                    <button>Contribute</button>
+                </div>
+
                 <div>
                     <NavBar className="nav"/>
                     <GuardianLogo className="logo" />

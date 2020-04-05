@@ -145,5 +145,6 @@ li{
 button{
   background-color: yellow;
   font-size: 15px;
-  top:15px;
+  padding-right: 10px;
+  
 }
