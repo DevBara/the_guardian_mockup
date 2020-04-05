@@ -10,6 +10,7 @@ class Header extends React.Component {
                 <div>
                     <h1 className="support">Support the Guardian</h1>
                     <h2 className="gift">Available for everyone, funded by readers</h2>
+                    <button>Contribute</button>
                     
                 </div>
                 <div>

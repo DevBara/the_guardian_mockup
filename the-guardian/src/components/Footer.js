@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from './NavBar'
+import News from  './News'
 
 
 
@@ -11,6 +12,7 @@ class Footer extends React.Component {
                 <div>
                    <p>I am a footer</p>
                    <NavBar />
+                   
                    
                 </div>
               
