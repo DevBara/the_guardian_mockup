@@ -7,7 +7,9 @@ class Main extends React.Component{
     constructor(props){
         super(props);
 
-        this.state={};
+        this.state= {
+            newsData: []
+        };
     }
 
     componentDidMount(){
@@ -29,7 +31,7 @@ class Main extends React.Component{
             <main className="main">
                 <h1>API Shows Here</h1>
                 <div>
-                    {this.state.response}
+                    {/* need to render API data */}
                 </div>
                 
             </main>
